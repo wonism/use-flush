@@ -1,0 +1,50 @@
+{
+  "name": "use-flush",
+  "version": "1.0.0",
+  "description": "React hooks for flushing frequent effect. It can optimize application via reducing re-rendering caused of effect",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rimraf dist && mkdirp dist && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "flush",
+    "flushing",
+    "debounce",
+    "throttle",
+    "performance",
+    "frequent",
+    "effect"
+  ],
+  "author": "wonism <yocee57@gmail.com> (https://wonism.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonism/use-flush.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wonism/use-flush/issues"
+  },
+  "homepage": "https://github.com/wonism/use-flush#readme",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "mkdirp": "^0.5.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.11.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript2": "^0.21.0",
+    "typescript": "^3.4.5"
+  }
+}
