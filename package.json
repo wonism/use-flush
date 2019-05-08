@@ -1,6 +1,6 @@
 {
   "name": "use-flush",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hooks for flushing frequent effect. It can optimize application via reducing re-rendering caused of effect.",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

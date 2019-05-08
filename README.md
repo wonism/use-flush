@@ -6,6 +6,24 @@
 [![npm version](https://badge.fury.io/js/use-flush.svg)](https://badge.fury.io/js/use-flush)
 [![Build Status](https://travis-ci.org/wonism/use-flush.svg)](https://travis-ci.org/wonism/use-flush)
 
+## Explanation
+Let's assume that the state will be changed very frequently like below.
+
+- `+` means every **n seconds**.
+- `*` means state is **changed**.
+
+```
++--------+--------+--------+--------
+  * *   *  ** *** *  *    *
+```
+
+The **flushed state** will be changed in every **n seconds** like below.
+
+```
++--------+--------+--------+--------
+         *(3)     *(6)     *(2)
+```
+
 ## Installation
 ```
 $ npm i -S use-flush
