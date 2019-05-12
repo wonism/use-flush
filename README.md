@@ -1,6 +1,6 @@
 # Use Flush
-> React hooks for flushing frequent effect.
-> It can optimize application via reducing re-rendering caused of effect.
+> React hooks for flushing frequently changing state.
+> It can optimize application via reducing re-rendering caused of changing state.
 > (It has zero-dependencies!)
 
 [![npm version](https://badge.fury.io/js/use-flush.svg)](https://badge.fury.io/js/use-flush)

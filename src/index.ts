@@ -4,7 +4,7 @@ const useFlush = (value: any, interval: number = 1000): any => {
   const [flushedAt, setFlushedAt] = useState<number>(-1);
   const [flushedValue, setFlushedValue] = useState<any[]>([]);
 
-  const store = useMemo((): { value: any[]; now?: number; pid?: number; } => ({ value: [] }), [flushedAt]);
+  const store = useMemo((): { value: any[]; now?: number; pid?: number } => ({ value: [] }), [flushedAt]);
 
   useEffect(() => {
     store.value.push(value);
